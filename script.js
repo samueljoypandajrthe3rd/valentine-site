@@ -1,12 +1,12 @@
 const messages = [
   "Are you sure?",
   "Really sure?",
-  "Pleaseeee 🥺",
-  "Think again...",
-  "I’ll be sad 😔",
+  "Pleaseuuuu 🥺",
+  " Mf Think again...",
+  "me sad 😔",
   "Very very sad...",
-  "Okay last chance!",
-  "Just say yes ❤️"
+  "imma go cry huhuhuhhu",
+  "Just say yes phak u"
 ];
 
 let messageIndex = 0;
