@@ -1,6 +1,6 @@
 const messages = [
   "Are you sure?",
-  "Really sure?",
+  "bery bery sure?",
   "Pleaseuuuu 🥺",
   " Mf Think again...",
   "me sad 😔",
