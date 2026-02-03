@@ -18,7 +18,7 @@ h1 {
 }
 
 .buttons {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 button {
@@ -45,6 +45,18 @@ button {
   color: white;
 }
 
+/* GIF */
+.gif_container {
+  margin: 20px 0;
+}
+
+.gif_container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+/* Fade animation */
 .fade-in {
   animation: fadeIn 0.8s ease forwards;
 }
@@ -66,4 +78,19 @@ button {
   padding: 10px 14px;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Confetti */
+.confetti {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  top: -10px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
 }
